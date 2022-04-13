@@ -1,0 +1,2 @@
+Constants cannot be declared using the := syntax as its a shorthand for var and Type Inference/Untyped type
+

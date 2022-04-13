@@ -1,0 +1,7 @@
+https://www.golang-book.com/
+
+https://www.youtube.com/watch?v=YS4e4q9oBaU
+
+https://www.youtube.com/watch?v=yyUHQIec83I
+
+https://wipro.udemy.com/course/go-the-complete-developers-guide/learn/lecture/7797236?learning_path_id=2666736#overview

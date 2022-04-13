@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=yyUHQIec83I
+https://www.youtube.com/watch?v=YS4e4q9oBaU
+https://www.youtube.com/watch?v=1NF2LtWbA1g
+
+https://www.golang-book.com/
+
+https://go.dev/play/
+https://go.dev/tour/
+
+https://go.dev/docs
+https://pkg.go.dev
+
+https://gobyexample.com/
+https://golangbot.com/
+https://www.golangprograms.com/
