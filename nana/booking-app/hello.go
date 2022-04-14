@@ -3,6 +3,7 @@ package main
 //import "net/http"
 import (
 	"fmt"
+
 	"github.com/karankaw/booking-app/pkg"
 	"github.com/karankaw/booking-app/pkg/nested"
 )
@@ -17,9 +18,13 @@ func main() {
 	pkg.DemoFunction()
 	nested.Display()
 
-	InterPolation()
+	//InterPolation()
 
-	Demo()
+	//Demo()
+
+	//formatter()
+
+	autoInference()
 }
 
 func InterPolation() {

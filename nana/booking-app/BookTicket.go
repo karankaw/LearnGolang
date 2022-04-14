@@ -12,5 +12,7 @@ func Demo() {
 	fmt.Println("Get Your tickets here to attend")
 	fmt.Println("Total Tickets :", conferenceTickets, "Remaining Tickets :", remainingTickets)
 
+	fmt.Printf("")
+
 	// conferenceTickets = 30
 }
