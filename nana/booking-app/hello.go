@@ -24,7 +24,16 @@ func main() {
 
 	//formatter()
 
-	autoInference()
+	// autoInference()
+
+	// AutoInference()
+
+	// showShortAssignmentForAutoInferenceVar()
+
+	// scanInput()
+
+	showPointers()
+
 }
 
 func InterPolation() {
