@@ -11,9 +11,6 @@ import (
 //func main1(){
 func main() {
 	//print("Hello World!")
-	fmt.Print("Hello World!")
-	fmt.Println("Hello World!")
-	fmt.Println("Welcome to Our conference booking application")
 
 	pkg.DemoFunction()
 	nested.Display()
@@ -32,7 +29,9 @@ func main() {
 
 	// scanInput()
 
-	showPointers()
+	// showPointers()
+
+	bookLogic()
 
 }
 
