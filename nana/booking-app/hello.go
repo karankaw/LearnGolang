@@ -6,6 +6,7 @@ import (
 
 	"github.com/karankaw/booking-app/pkg"
 	"github.com/karankaw/booking-app/pkg/nested"
+	"sample.com/module1"
 )
 
 //func main1(){
@@ -31,7 +32,9 @@ func main() {
 
 	// showPointers()
 
-	bookLogic()
+	// bookLogic()
+
+	fmt.Println(module1.Add(1, 2))
 
 }
 

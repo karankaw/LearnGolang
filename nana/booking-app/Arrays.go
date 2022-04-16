@@ -7,6 +7,8 @@ import (
 func main() {
 
 	var days [7]string
+	days[0] = "Monday"
+	//days[1] = true //Cannot assign boolean to string array
 	months := []string{"Jan", "Feb"}
 	monthsRUNE := [12]rune{'J', 'F'}
 	digits := []int{0, 1}
@@ -22,7 +24,7 @@ func main() {
 
 	fmt.Printf("%v %v %d \n", len(months), len(digits), len(floats))
 	fmt.Println(monthsRUNE)
-	
+
 	fmt.Printf("Arrays Example! %v %v %v %v\n", days, months, digits, floats)
 
 }
