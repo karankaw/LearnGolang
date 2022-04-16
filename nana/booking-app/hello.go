@@ -1,47 +1,54 @@
 package main
 
 //import "net/http"
-import (
-	"fmt"
 
-	"github.com/karankaw/booking-app/pkg"
-	"github.com/karankaw/booking-app/pkg/nested"
-	"sample.com/module1/arraysDemo"
-)
+// "fmt"
+import "sample.com/module1"
+// "github.com/karankaw/booking-app/pkg"
+// "github.com/karankaw/booking-app/pkg/nested"
 
-//func main1(){
 func main() {
-	//print("Hello World!")
+	var arrSize5 [5]int
+	arrSize2 := [2]int{}
 
-	pkg.DemoFunction()
-	nested.Display()
-
-	//InterPolation()
-
-	//Demo()
-
-	//formatter()
-
-	// autoInference()
-
-	// AutoInference()
-
-	// showShortAssignmentForAutoInferenceVar()
-
-	// scanInput()
-
-	// showPointers()
-
-	// bookLogic()
-
-	fmt.Println("Sum is :", arraysDemo.Add(1, 2))
-
+	module1.AssignArrays(arrSize5,arrSize2)
 }
 
+//func main1(){
+// func main() {
+//print("Hello World!")
+
+// pkg.DemoFunction()
+// nested.Display()
+
+//InterPolation()
+
+//Demo()
+
+//formatter()
+
+// autoInference()
+
+// AutoInference()
+
+// showShortAssignmentForAutoInferenceVar()
+
+// scanInput()
+
+// showPointers()
+
+// bookLogic()
+
+// fmt.Println("Sum is :", arraysDemo.Add(1, 2))
+
+//}
+
+/*
 func InterPolation() {
 	var confName = "Go Conference"
 	fmt.Println("Welcome to", confName, "booking application!")
 }
+*/
 
 /*
 The space automatically gets added after variable Name

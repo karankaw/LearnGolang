@@ -1,7 +1,10 @@
-package arraysDemo
+package module1
 
-func AssignArrays(arr1 []int, arr2 []int) bool {
-	arr1 = arr2
+import "fmt"
+
+func AssignArrays(arr5 [5]int, arr2 [2]int) bool {
+	fmt.Printf("%v\n", arr5)
+	// arr5 = arr2
 	return true
 }
 
