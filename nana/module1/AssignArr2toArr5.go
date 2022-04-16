@@ -1,4 +1,4 @@
-package module1
+package arraysDemo
 
 func AssignArrays(arr1 []int, arr2 []int) bool {
 	arr1 = arr2

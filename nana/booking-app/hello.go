@@ -6,7 +6,7 @@ import (
 
 	"github.com/karankaw/booking-app/pkg"
 	"github.com/karankaw/booking-app/pkg/nested"
-	"sample.com/module1"
+	"sample.com/module1/arraysDemo"
 )
 
 //func main1(){
@@ -34,7 +34,7 @@ func main() {
 
 	// bookLogic()
 
-	fmt.Println(module1.Add(1, 2))
+	fmt.Println("Sum is :", arraysDemo.Add(1, 2))
 
 }
 
