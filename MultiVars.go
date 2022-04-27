@@ -30,7 +30,7 @@ func main() {
 
 	fmt.Println(num8, num32, numUn)
 	fmt.Printf("%T %T %T\n", num8, num32, numUn)
-	
+
 	//MultiVar Declaration Different Types - Explicit with Initialisation
 	var (
 		realNum8  float32 = 8.089

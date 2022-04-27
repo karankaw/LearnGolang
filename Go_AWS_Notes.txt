@@ -1,0 +1,32 @@
+go mod init example
+
+go get github.com/aws/aws-sdk-go-v2
+go get github.com/aws/aws-sdk-go-v2/config
+go get github.com/aws/aws-sdk-go-v2/service/s3
+go get github.com/aws/aws-sdk-go-v2/service/ec2
+
+$GOPATH/pkg/mod
+
+https://aws.github.io/aws-sdk-go-v2/docs/getting-started/
+
+
+====================================================
+
+https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html
+
+
+$ AWS_PROFILE=test-account myapp
+
+sess, err := session.NewSession(&aws.Config{
+    Region:      aws.String("us-west-2"),
+    Credentials: credentials.NewSharedCredentials("", "test-account"),
+})
+
+====================================================
+
+func main() {
+	// Load the Shared AWS Configuration (~/.aws/config)
+	cfg, err := config.LoadDefaultConfig(context.TODO())
+	if err != nil {
+		log.Fatal(err)
+	}

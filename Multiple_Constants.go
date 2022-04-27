@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 import "reflect"
-	
+
 const (
 	Http_Ok, Http_Moved_Permanently, Http_Unauthorized = "200", "304", 401
 	Http_Internal_Server_Error                         = "500"

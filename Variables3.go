@@ -31,7 +31,7 @@ func main() {
 
 	//ch := '!@' //more than one character in rune literal
 	ch := '@'
-	fmt.Println("Type of ch is", reflect.TypeOf(ch))//Space is automatically added around "comma" in Println
+	fmt.Println("Type of ch is", reflect.TypeOf(ch)) //Space is automatically added around "comma" in Println
 	fmt.Printf("--- Type of ch is %T \n", ch)
 
 	ru := '@'
