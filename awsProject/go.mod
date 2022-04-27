@@ -1,4 +1,4 @@
-module example.com/awscode
+module awscode
 
 go 1.17
 

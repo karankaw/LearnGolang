@@ -13,6 +13,10 @@ import (
 // https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/go/example_code/ec2/describing_instances.go
 // https://github.com/aws/aws-sdk-go/blob/v1.44.1/service/ec2/examples_test.go
 
+// https://www.digitalocean.com/community/tutorials/how-to-use-go-modules
+// https://yourbasic.org/golang/structs-explained/
+// https://gobyexample.com/structs
+
 func ListEC2() {
 	fmt.Println("List of EC2 Instances")
 	getSession()

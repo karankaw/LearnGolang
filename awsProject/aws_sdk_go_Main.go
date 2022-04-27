@@ -1,6 +1,6 @@
 package main
 
-import "example.com/awscode/awsexample"
+import "awscode/awsexample"
 
 func main() {
 

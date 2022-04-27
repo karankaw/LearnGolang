@@ -1,0 +1,34 @@
+https://stackoverflow.com/questions/11475917/strange-type-definition-syntax-in-golang-name-then-type-then-string-literal
+https://www.golangprograms.com/go-language/struct.html
+https://stackoverflow.com/questions/62950068/go-struct-tag-syntax
+
+https://stackoverflow.com/questions/10858787/what-are-the-uses-for-tags-in-go
+
+
+
+https://stackoverflow.com/questions/42594789/initialize-string-pointer-in-struct
+
+https://stackoverflow.com/questions/9320862/why-would-i-make-or-new
+
+Pointer to slice of Strings   *[]string
+Slice of String Pointers      []*string
+
+
+
+https://gist.github.com/stephen-mw/9f289d724c4cfd3c88f2
+
+export AWS_PROFILE=ventures
+echo $AWS_PROFILE
+
+
+https://pkg.go.dev/github.com/aws/aws-sdk-go@v1.44.1/service/s3#S3.ListBuckets
+
+ec2Svc.DescribeInstancesRequest
+
+https://github.com/aws/aws-sdk-go/blob/v1.44.1/service/ec2/examples_test.go
+
+
+https://www.digitalocean.com/community/tutorials/how-to-use-go-modules
+
+https://yourbasic.org/golang/structs-explained/
+https://gobyexample.com/structs
