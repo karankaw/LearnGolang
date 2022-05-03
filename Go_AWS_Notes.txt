@@ -30,3 +30,16 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	
+====================================================
+https://docs.aws.amazon.com/lambda/latest/dg/golang-package.html
+	
+$env:GOOS = "linux"
+$env:CGO_ENABLED = "0"
+$env:GOARCH = "amd64"
+go build -o main main.go
+~\Go\Bin\build-lambda-zip.exe -output main.zip main
+
+$env:AWS_PROFILE = "ventures"
+
+====================================================

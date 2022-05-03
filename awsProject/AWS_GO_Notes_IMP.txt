@@ -32,3 +32,43 @@ https://www.digitalocean.com/community/tutorials/how-to-use-go-modules
 
 https://yourbasic.org/golang/structs-explained/
 https://gobyexample.com/structs
+
+====================================================
+https://docs.aws.amazon.com/lambda/latest/dg/golang-package.html
+	
+$env:GOOS = "linux"
+$env:CGO_ENABLED = "0"
+$env:GOARCH = "amd64"
+go build -o main main.go
+~\Go\Bin\build-lambda-zip.exe -output main.zip main
+
+$env:AWS_PROFILE = "ventures"
+=======  =======  =======  =======  =======  =======
+
+go mod init awslambdaexample
+
+
+go mod edit -replace example.com/startec2=../startec2
+go mod edit -replace example.com/stopec2=../stopec2
+
+
+//https://go.dev/doc/modules/managing-dependencies#synchronizing
+go mod tidy 
+Synchronizing your code’s dependencies 
+
+
+https://coderwall.com/p/arxtja/install-all-go-project-dependencies-in-one-command
+go get ./...
+
+====================================================
+
+
+https://golangbot.com/variables/
+
+https://golangbyexample.com/multiple-constant-declarations-go/
+
+https://www.digitalocean.com/community/tutorials/how-to-use-struct-tags-in-go
+
+https://www.digitalocean.com/community/tutorials/js-json-parse-stringify
+
+http://www.inanzzz.com/index.php/post/1e0r/using-aws-eventbridge-to-manually-send-events-to-lambda-functions-in-golang

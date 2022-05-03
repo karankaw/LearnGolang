@@ -1,0 +1,38 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"logs:CreateLogGroup",
+				"logs:CreateLogStream",
+				"logs:PutLogEvents"
+			],
+			"Resource": "arn:aws:logs:*:*:*"
+		},
+		{
+			"Effect": "Allow",
+			"Action": [
+				"ec2:Start*",
+				"ec2:Stop*"
+			],
+			"Resource": "*"
+		}
+	]
+}
+
+
+
+cron(0/7 01-07 ? * MON-FRI *)
+
+cron(0 19 ? * * *)
+
+
+
+https://github.com/aws/aws-lambda-go
+https://stackoverflow.com/questions/58133166/error-fork-exec-var-task-main-no-such-file-or-directory-while-executing-aws
+
+
+
+go build -o main main.go
+~\Go\Bin\build-lambda-zip.exe -o main.zip main
