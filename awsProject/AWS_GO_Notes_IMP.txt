@@ -39,10 +39,21 @@ https://docs.aws.amazon.com/lambda/latest/dg/golang-package.html
 $env:GOOS = "linux"
 $env:CGO_ENABLED = "0"
 $env:GOARCH = "amd64"
-go build -o main main.go
-~\Go\Bin\build-lambda-zip.exe -output main.zip main
+$env:AWS_PROFILE = "ventures"
+go mod tidy
+go get ./...
+go fmt .
+go build -o main .
+~\Go\Bin\build-lambda-zip.exe -output awslambdastopec2.zip main
+
+
+~\Go\Bin\build-lambda-zip.exe -output awslambdastartec2.zip main
 
 $env:AWS_PROFILE = "ventures"
+=======  =======  =======  =======  =======  =======
+
+go build abc.go xyz.go
+go build .
 =======  =======  =======  =======  =======  =======
 
 go mod init awslambdaexample
@@ -50,6 +61,9 @@ go mod init awslambdaexample
 
 go mod edit -replace example.com/startec2=../startec2
 go mod edit -replace example.com/stopec2=../stopec2
+
+
+go mod edit -replace awslambdastopec2/stopec2=../stopec2
 
 
 //https://go.dev/doc/modules/managing-dependencies#synchronizing
